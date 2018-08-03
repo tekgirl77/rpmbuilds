@@ -1,4 +1,4 @@
-# This is a sample spec file for boost
+# This is a spec file for boost
 # rpmbuild -v -bb --clean SPECS/boost.spec
 
 %define _topdir     /usr/src/rpm
@@ -18,7 +18,7 @@ Prefix:         /usr
 Group:          Development/Tools
 
 %description
-The GNU wget program downloads files from the Internet using the command-line.
+Boost provides free portable peer-reviewed C++ libraries. The emphasis is on portable libraries which work well with the C++ Standard Library. 
 
 %prep
 %setup -q -n %{name}_%{release}_%{version}
